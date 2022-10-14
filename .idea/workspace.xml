@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Files/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImagesAndFilesGo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JWT/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="Finalised image creation implementation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -80,8 +73,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665738248748</updated>
-      <workItem from="1665738249912" duration="3271000" />
+      <workItem from="1665738249912" duration="3998000" />
     </task>
+    <task id="LOCAL-00001" summary="Finalised image creation implementation">
+      <created>1665751607926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665751607926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finalised image creation implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised image creation implementation" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
