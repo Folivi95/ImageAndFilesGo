@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="Finalised read from and write into files implementation">
-      <change afterPath="$PROJECT_DIR$/JWT/oauth-implement-server/main.go" afterDir="false" />
+    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="Added base for JWT authentication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWT/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/JWT/oauth-implement-client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT/oauth-implement-client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/JWT/oauth-implement-client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT/oauth-implement-server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/JWT/oauth-implement-server/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665738248748</updated>
-      <workItem from="1665738249912" duration="6636000" />
+      <workItem from="1665738249912" duration="8292000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised image creation implementation">
       <created>1665751607926</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665764345629</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added base for JWT authentication">
+      <created>1665922557849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665922557849</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +153,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finalised image creation implementation" />
     <MESSAGE value="Finalised read from and write into files implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised read from and write into files implementation" />
+    <MESSAGE value="Added base for JWT authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added base for JWT authentication" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/JWT/oauth-implement-client/main.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/JWT/oauth-implement-server/main.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
