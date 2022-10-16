@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="Finalised image creation implementation">
+    <list default="true" id="60dae9cd-0928-4ae6-8f62-867d5ffc62f0" name="Changes" comment="Finalised read from and write into files implementation">
+      <change afterPath="$PROJECT_DIR$/JWT/oauth-implement-server/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/JWT/oauth-implement-client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,21 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JWT/oauth-implement-client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build ImagesAndFilesGo/JWT/oauth-implement-server">
+    <configuration name="go build ImagesAndFilesGo/Files" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ImagesAndFilesGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ImagesAndFilesGo/Files" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Files/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build ImagesAndFilesGo/Images" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ImagesAndFilesGo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -59,8 +76,29 @@
       <filePath value="$PROJECT_DIR$/Images/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build ImagesAndFilesGo/JWT/oauth-implement-client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ImagesAndFilesGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ImagesAndFilesGo/JWT/oauth-implement-client" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/JWT/oauth-implement-client/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ImagesAndFilesGo/JWT/oauth-implement-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ImagesAndFilesGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ImagesAndFilesGo/JWT/oauth-implement-server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/JWT/oauth-implement-server/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ImagesAndFilesGo/JWT/oauth-implement-server" />
+        <item itemvalue="Go Build.go build ImagesAndFilesGo/JWT/oauth-implement-client" />
+        <item itemvalue="Go Build.go build ImagesAndFilesGo/Files" />
         <item itemvalue="Go Build.go build ImagesAndFilesGo/Images" />
       </list>
     </recent_temporary>
@@ -73,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665738248748</updated>
-      <workItem from="1665738249912" duration="3998000" />
+      <workItem from="1665738249912" duration="6636000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised image creation implementation">
       <created>1665751607926</created>
@@ -82,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665751607926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finalised read from and write into files implementation">
+      <created>1665764345629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665764345629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finalised image creation implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised image creation implementation" />
+    <MESSAGE value="Finalised read from and write into files implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised read from and write into files implementation" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
